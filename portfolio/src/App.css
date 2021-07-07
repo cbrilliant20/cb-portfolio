@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  color: #e8e9e9;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #359bfa;
+  color: #e8e9e9;
+}
