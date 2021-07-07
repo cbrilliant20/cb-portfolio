@@ -12,9 +12,9 @@ function Footer() {
   return (
     <footer>
       <div className="socials">
-        <FontAwesomeIcon icon={faTwitterSquare} className="footer-icon" />
         <FontAwesomeIcon icon={faLinkedin} className="footer-icon" />
         <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
+        <FontAwesomeIcon icon={faTwitterSquare} className="footer-icon" />
         <FontAwesomeIcon icon={faInstagramSquare} className="footer-icon" />
       </div>
       <div className="copyright">
