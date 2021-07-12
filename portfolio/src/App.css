@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 .App {
@@ -14,4 +15,10 @@ button {
   outline: none;
   background-color: #359bfa;
   color: #e8e9e9;
+}
+
+h2 {
+  width: fit-content;
+  border-bottom: 1px solid white;
+  font-style: 48px;
 }

@@ -62,6 +62,9 @@ const About = () => {
             <br />
             Tools - GitHub, CLI, VSCode
           </p>
+          <button>
+            <a href="#">Resume</a>
+          </button>
         </div>
       </div>
     </div>
