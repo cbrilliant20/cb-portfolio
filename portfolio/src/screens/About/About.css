@@ -1,0 +1,73 @@
+.about-container {
+  height: 100vh;
+  text-align: center;
+  background: rgb(33, 47, 60);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 47, 60, 1) 0%,
+    rgba(70, 76, 81, 1) 100%
+  );
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.skills-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+
+.skills-container img {
+  width: 125px;
+  height: 125px;
+  margin: 40px 60px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.text-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(127, 133, 133);
+  text-align: left;
+}
+
+.text-container h4 {
+  border-bottom: 1px solid white;
+  width: fit-content;
+}
+
+.text-container p {
+  font-style: italic;
+}
+
+.brand {
+  width: 30%;
+}
+
+.tool {
+  width: 30%;
+}
