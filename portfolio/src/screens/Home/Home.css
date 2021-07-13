@@ -13,24 +13,24 @@
   justify-content: center;
   align-items: center;
   z-index: 2000;
+  overflow: hidden;
 }
 
 #home-container h1,
 h2,
 button {
-  margin: 40px;
+  margin: 40px 0;
 }
 
-#home-container h1 {
+h1.home-h1 {
   font-size: 56px;
-  animation: animated-text 5s ease-in-out 0.5s;
-  /* width: 22ch; */
-  white-space: nowrap;
-  overflow: hidden;
+  animation: appearleft 3.5s forwards;
 }
-/* steps(28) */
-#home-container h2 {
+
+h2.home-h2 {
   font-size: 48px;
+  animation: appearright 3.5s forwards;
+  border: none;
 }
 
 #home-container span {
@@ -41,6 +41,7 @@ button {
   width: 200px;
   height: 75px;
   font-size: 28px;
+  animation: appearbottom 3.5s forwards;
 }
 
 #home-container button a {
@@ -48,15 +49,29 @@ button {
   color: inherit;
 }
 
-#home-container h2 {
-  border: none;
+@keyframes appearleft {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-@keyframes animated-text {
-  from {
-    width: 0;
+@keyframes appearright {
+  0% {
+    transform: translateX(-200%);
   }
-  to {
-    width: 80%;
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes appearbottom {
+  0% {
+    transform: translateY(400%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

@@ -12,10 +12,19 @@ function Footer() {
   return (
     <footer>
       <div className="socials">
-        <FontAwesomeIcon icon={faLinkedin} className="footer-icon" />
-        <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
-        <FontAwesomeIcon icon={faTwitterSquare} className="footer-icon" />
-        <FontAwesomeIcon icon={faInstagramSquare} className="footer-icon" />
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/cameron-brilliant/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="footer-icon" />
+        </a>
+
+        <a target="_blank" href="https://github.com/cbrilliant20">
+          <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/cbrilliant20/">
+          <FontAwesomeIcon icon={faInstagramSquare} className="footer-icon" />
+        </a>
       </div>
       <div className="copyright">
         <p>Cameron Brilliant</p>
