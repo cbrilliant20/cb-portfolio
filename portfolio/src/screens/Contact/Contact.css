@@ -14,10 +14,6 @@
   align-items: center;
 }
 
-#contact-container h2 {
-  font-size: 48px;
-}
-
 #contact-container form {
   display: flex;
   flex-direction: column;
@@ -29,6 +25,12 @@
   margin: 5px;
   resize: none;
   outline: none;
+  border-radius: 10px;
+}
+#contact-container form input,
+textarea {
+  padding: 10px;
+  font-size: 18;
 }
 
 #contact-container button {
@@ -36,4 +38,10 @@
   align-self: flex-end;
   height: 40px;
   font-size: 22px;
+  padding: none;
+}
+
+#contact-container p {
+  margin: 40px 0;
+  font-size: 18px;
 }

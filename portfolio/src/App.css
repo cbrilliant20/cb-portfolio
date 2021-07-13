@@ -10,15 +10,25 @@
 }
 
 button {
+  background: rgb(205, 220, 235);
+
+  color: #0093e9;
+  border: 2px solid #0093e9 !important;
+  transition: 1s !important;
   border-radius: 10px;
-  border: none;
   outline: none;
-  background-color: #359bfa;
-  color: #e8e9e9;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 600px 0 0 1px #0093e9;
+  color: white;
+  border: 2px solid white;
 }
 
 h2 {
   width: fit-content;
   border-bottom: 1px solid white;
-  font-style: 48px;
+  font-size: 48px;
 }
