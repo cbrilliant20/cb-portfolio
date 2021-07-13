@@ -1,7 +1,5 @@
 import "./Nav.css"
-// import { Link } from "react-router-dom"
-import { HashLink as Link } from "react-router-hash-link"
-import Contact from "../../screens/Contact/Contact"
+
 
 function Nav() {
   return (

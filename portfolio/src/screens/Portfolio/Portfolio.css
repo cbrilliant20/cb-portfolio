@@ -1,5 +1,5 @@
 #portfolio-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;
   background: rgb(33, 47, 60);
   background: linear-gradient(
@@ -12,4 +12,24 @@
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+#portfolio-container a {
+  text-decoration: none;
+}
+
+.card-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  margin: 50px;
 }

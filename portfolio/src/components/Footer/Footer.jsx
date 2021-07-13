@@ -1,7 +1,6 @@
 import "./Footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faTwitterSquare,
   faLinkedin,
   faGithubSquare,
   faInstagramSquare,
@@ -15,14 +14,23 @@ function Footer() {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/cameron-brilliant/"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} className="footer-icon" />
         </a>
 
-        <a target="_blank" href="https://github.com/cbrilliant20">
+        <a
+          target="_blank"
+          href="https://github.com/cbrilliant20"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithubSquare} className="footer-icon" />
         </a>
-        <a target="_blank" href="https://www.instagram.com/cbrilliant20/">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/cbrilliant20/"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faInstagramSquare} className="footer-icon" />
         </a>
       </div>
