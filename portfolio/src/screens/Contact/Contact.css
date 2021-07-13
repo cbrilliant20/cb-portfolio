@@ -1,4 +1,4 @@
-.contact-container {
+#contact-container {
   height: 100vh;
   text-align: center;
   background: rgb(33, 47, 60);
@@ -14,24 +14,24 @@
   align-items: center;
 }
 
-.contact-container h2 {
+#contact-container h2 {
   font-size: 48px;
 }
 
-.contact-container form {
+#contact-container form {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 35%;
 }
 
-.contact-container form * {
+#contact-container form * {
   margin: 5px;
   resize: none;
   outline: none;
 }
 
-.contact-container button {
+#contact-container button {
   width: 30%;
   align-self: flex-end;
   height: 40px;

@@ -1,4 +1,4 @@
-.about-container {
+#about-container {
   height: 100vh;
   text-align: center;
   background: rgb(33, 47, 60);
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.about-container h2 {
+#about-container h2 {
   text-align: center;
   font-size: 48px;
 }

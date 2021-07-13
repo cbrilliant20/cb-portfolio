@@ -1,4 +1,4 @@
-.home-container {
+#home-container {
   height: 100vh;
   text-align: center;
   background: rgb(33, 47, 60);
@@ -14,13 +14,13 @@
   align-items: center;
 }
 
-.home-container h1,
+#home-container h1,
 h2,
 button {
   margin: 40px;
 }
 
-.home-container h1 {
+#home-container h1 {
   font-size: 56px;
   animation: animated-text 5s ease-in-out 0.5s;
   /* width: 22ch; */
@@ -28,21 +28,21 @@ button {
   overflow: hidden;
 }
 /* steps(28) */
-.home-container h2 {
+#home-container h2 {
   font-size: 48px;
 }
 
-.home-container span {
+#home-container span {
   color: #359bfa;
 }
 
-.home-container button {
+#home-container button {
   width: 200px;
   height: 75px;
   font-size: 28px;
 }
 
-.home-container h2 {
+#home-container h2 {
   border: none;
 }
 
