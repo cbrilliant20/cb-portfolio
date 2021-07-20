@@ -97,3 +97,7 @@
   color: inherit;
   font-size: 22px;
 }
+
+svg {
+  fill: blueviolet;
+}

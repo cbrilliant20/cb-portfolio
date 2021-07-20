@@ -14,10 +14,7 @@ const Portfolio = () => {
 
         <a href="#" target="_blank" rel="noreferrer">
           <div className="card card2">
-            <img
-              src="../../Assets/Screen\ Shot\ 2021-07-13\ at\ 5.59.50\ PM.jpg"
-              alt=""
-            />
+            <img src="" alt="" />
             <h5>Project 1</h5>
             <p>Built with X, Y, and Z</p>
           </div>
