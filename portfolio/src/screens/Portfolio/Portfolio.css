@@ -1,11 +1,11 @@
 #portfolio-container {
   height: 100%;
   text-align: center;
-  background: rgb(33, 47, 60);
+  background: rgb(66, 66, 68);
   background: linear-gradient(
     180deg,
-    rgba(33, 47, 60, 1) 0%,
-    rgba(70, 76, 81, 1) 100%
+    rgba(66, 66, 68, 1) 0%,
+    rgba(94, 94, 96, 1) 100%
   );
   position: relative;
   display: flex;
