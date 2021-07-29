@@ -3,8 +3,17 @@ import thinking from "../../Assets/thinking.png"
 import solve from "../../Assets/solve.png"
 import communicate from "../../Assets/communicate.png"
 import coach from "../../Assets/coach.png"
+import Resume from "../../components/Resume/Resume"
+import { useState } from "react"
 
 const About = () => {
+  const [showResume, setShowResume] = useState(false)
+
+  let resume
+  if (showResume) {
+    resume = <Resume />
+  }
+
   return (
     <div id="about-container">
       <h2>About</h2>
@@ -54,11 +63,12 @@ const About = () => {
             <br />
             Tools - GitHub, CLI, VSCode
           </p>
-          <button>
-            <a href="#">Resume</a>
+          <button onClick={() => setShowResume(!showResume)}>
+            {/* <a href="#">Resume</a> */} Resume
           </button>
         </div>
       </div>
+      {resume}
     </div>
   )
 }

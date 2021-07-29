@@ -2,11 +2,7 @@
   height: 100vh;
   text-align: center;
   background: rgb(94, 94, 96);
-  background: linear-gradient(
-    180deg,
-    rgba(94, 94, 96, 1) 0%,
-    rgba(133, 133, 134, 1) 100%
-  );
+  background: linear-gradient(180deg, rgb(68, 68, 70) 0%, rgb(83, 83, 83) 100%);
   position: relative;
   display: flex;
   flex-flow: column wrap;
@@ -43,6 +39,7 @@ textarea {
 }
 
 #contact-container p {
-  margin: 40px 0 80px 0;
+  margin: 40px 0 60px 0;
   font-size: 18px;
+  color: #0093e9;
 }
