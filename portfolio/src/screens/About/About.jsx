@@ -3,17 +3,8 @@ import thinking from "../../Assets/thinking.png"
 import solve from "../../Assets/solve.png"
 import communicate from "../../Assets/communicate.png"
 import coach from "../../Assets/coach.png"
-// import Resume from "../../components/Resume/Resume"
-import { useState } from "react"
 
 const About = () => {
-  // const [showResume, setShowResume] = useState(false)
-
-  // let resume
-  // if (showResume) {
-  //   resume = <Resume />
-  // }
-
   return (
     <div id="about-container">
       <h2 id="about">About</h2>
@@ -66,6 +57,7 @@ const About = () => {
           <a
             href="https://drive.google.com/file/d/1xOJqFdfXbq4ewtzKXJVsqbxWqiIay2Vk/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <button>Resume</button>
           </a>

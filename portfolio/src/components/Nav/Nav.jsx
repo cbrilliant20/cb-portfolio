@@ -1,4 +1,5 @@
 import "./Nav.css"
+import Burger from "../Burger/Burger"
 
 function Nav() {
   return (
@@ -17,6 +18,7 @@ function Nav() {
           <a href="#contact-container">CONTACT</a>
         </li>
       </ul>
+      {/* <Burger /> */}
     </nav>
   )
 }

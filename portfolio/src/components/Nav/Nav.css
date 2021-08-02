@@ -35,3 +35,9 @@ nav ul li a:active {
   color: #0093e9;
   border-bottom: 1px solid #0093e9;
 }
+
+@media only screen and (max-width: 1080px) {
+  nav {
+    display: none;
+  }
+}

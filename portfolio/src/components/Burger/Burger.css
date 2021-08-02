@@ -1,0 +1,22 @@
+.burger-container {
+  display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  .burger-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    padding: 10px;
+    color: #0093e9;
+    z-index: 2001;
+  }
+  .burger-icon {
+    font-size: 30px;
+  }
+}

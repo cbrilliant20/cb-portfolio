@@ -15,7 +15,7 @@ const Portfolio = () => {
               <h4>COMPASS</h4>
               <p>
                 COMPASS is a travel planning application where users can create,
-                update and delete account specific trips and itineraries
+                update and delete account specific trips and itineraries.
               </p>
             </div>
             <div className="card-bottom">

@@ -1,7 +1,8 @@
+import "./Burger.css"
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
-import BurgerNav from "./BurgerNav"
+import BurgerNav from "../BurgerNav/BurgerNav"
 
 function Burger() {
   const [showMenu, setShowMenu] = useState(false)
@@ -13,6 +14,7 @@ function Burger() {
 
   return (
     <div className="burger-container">
+      <p>Cameron Brilliant</p>
       <div>
         <FontAwesomeIcon
           className="svg-inline--fa fa-bars fa-w-20 burger-icon"
