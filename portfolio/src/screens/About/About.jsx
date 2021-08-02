@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <div id="about-container">
-      <h2>About</h2>
+      <h2 id="about">About</h2>
       <div className="skills-container">
         <div className="skill">
           <img src={communicate} alt="communication" />
