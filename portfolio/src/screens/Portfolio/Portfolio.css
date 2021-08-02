@@ -37,6 +37,7 @@
   line-height: 1.6;
   text-align: left;
   font-size: 18px;
+  transition: 0.5s;
 }
 
 .card-top {
@@ -62,4 +63,8 @@
   background-repeat: no-repeat;
   color: white;
   z-index: -1;
+}
+
+.card:hover {
+  transform: scale(105%);
 }
