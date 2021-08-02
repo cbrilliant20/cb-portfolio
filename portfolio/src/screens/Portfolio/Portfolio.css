@@ -33,6 +33,27 @@
   margin: 20px 50px;
   border: 1px solid white;
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  /* position: relative; */
+  line-height: 1.6;
+  text-align: left;
+  font-size: 18px;
+}
+
+.card-top {
+  height: 75%;
+  padding: 10px;
+}
+
+.card-top h4 {
+  font-size: 26px;
+}
+
+.card-top p {
+  margin: 20px 0;
+}
+
+.card-bottom {
+  padding: 10px;
 }
 
 .card1 {

@@ -5,32 +5,85 @@ const Portfolio = () => {
     <div id="portfolio-container">
       <h2>Portfolio</h2>
       <div className="card-container">
-        <a href="#" target="_blank" rel="noreferrer">
+        <a
+          href="https://compass-travel.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="card card1">
-            <h5>Project 1</h5>
-            <p>Built with X, Y, and Z</p>
+            <div className="card-top">
+              <h4>COMPASS</h4>
+              <p>
+                COMPASS is a travel planning application where users can create,
+                update and delete account specific trips and itineraries
+              </p>
+            </div>
+            <div className="card-bottom">
+              <p>Built with HTML, CSS, React, Ruby, Rails and MongoDB</p>
+            </div>
           </div>
         </a>
 
-        <a href="#" target="_blank" rel="noreferrer">
-          <div className="card card2">
-            <img src="" alt="" />
-            <h5>Project 1</h5>
-            <p>Built with X, Y, and Z</p>
+        <a
+          href="https://thevinylexchange.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card card1">
+            <div className="card-top">
+              <h4>The Vinyl Exchange</h4>
+              <p>
+                The Vinyl Exchange is a social marketplace to buy and sell new
+                and old records, offering full CRUD capability, user
+                authentication, and a home grown API.
+              </p>
+            </div>
+            <div className="card-bottom">
+              <p>
+                Built with HTML, CSS, Mongoose, Express, Node, React and MongoDB
+              </p>
+            </div>
           </div>
         </a>
 
-        <a href="#" target="_blank" rel="noreferrer">
-          <div className="card card3">
-            <h5>Project 1</h5>
-            <p>Built with X, Y, and Z</p>
+        <a
+          href="https://devhub20.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card card1">
+            <div className="card-top">
+              <h4>devHub</h4>
+              <p>
+                devHub is a reasource to keep track and manage the many online
+                resources a web developer relies upon. Users can view and access
+                existing resources as well as add their own to the database.
+              </p>
+            </div>
+            <div className="card-bottom">
+              <p>Built with HTML, CSS, React and Airtable</p>
+            </div>
           </div>
         </a>
 
-        <a href="#" target="_blank" rel="noreferrer">
-          <div className="card card4">
-            <h5>Project 1</h5>
-            <p>Built with X, Y, and Z</p>
+        <a
+          href="https://cbrilliant20.github.io/Weather-App/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card card1">
+            <div className="card-top">
+              <h4>Weather App</h4>
+              <p>
+                The Weather App will take a city or zipcode from a user and
+                return the current weather for that location. Built with the
+                OpenWeather API, our users are confident they are recieving the
+                most up to date weather information avaialable.
+              </p>
+            </div>
+            <div className="card-bottom">
+              <p>Built with HTML, CSS and JavaScript</p>
+            </div>
           </div>
         </a>
       </div>

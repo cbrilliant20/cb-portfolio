@@ -3,16 +3,16 @@ import thinking from "../../Assets/thinking.png"
 import solve from "../../Assets/solve.png"
 import communicate from "../../Assets/communicate.png"
 import coach from "../../Assets/coach.png"
-import Resume from "../../components/Resume/Resume"
+// import Resume from "../../components/Resume/Resume"
 import { useState } from "react"
 
 const About = () => {
-  const [showResume, setShowResume] = useState(false)
+  // const [showResume, setShowResume] = useState(false)
 
-  let resume
-  if (showResume) {
-    resume = <Resume />
-  }
+  // let resume
+  // if (showResume) {
+  //   resume = <Resume />
+  // }
 
   return (
     <div id="about-container">
@@ -63,12 +63,14 @@ const About = () => {
             <br />
             Tools - GitHub, CLI, VSCode
           </p>
-          <button onClick={() => setShowResume(!showResume)}>
-            {/* <a href="#">Resume</a> */} Resume
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1xOJqFdfXbq4ewtzKXJVsqbxWqiIay2Vk/view?usp=sharing"
+            target="_blank"
+          >
+            <button>Resume</button>
+          </a>
         </div>
       </div>
-      {resume}
     </div>
   )
 }
