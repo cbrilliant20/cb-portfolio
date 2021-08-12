@@ -55,7 +55,7 @@ const About = () => {
             Tools - GitHub, CLI, VSCode
           </p>
           <a
-            href="https://drive.google.com/file/d/1vlz5YehU4Os8MSC71RiDEg23T0HB19mb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zoiL5Yb4vIYhzyxiqpL-CjFKSxyzPcoS/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
