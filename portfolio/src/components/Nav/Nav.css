@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background-color: black;
+  background-color: #1f1f1e;
   padding: 0 80px;
   height: 10vh;
   position: fixed;
@@ -20,20 +20,20 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #eef2f3;
   margin: 0 30px;
   border-bottom: 1px transparent;
   transition: 0.5s;
 }
 
 nav ul li a:hover {
-  color: #0093e9;
-  border-bottom: 1px solid #0093e9;
+  color: #8d8569;
+  border-bottom: 1px solid #8d8569;
 }
 
 nav ul li a:active {
-  color: #0093e9;
-  border-bottom: 1px solid #0093e9;
+  color: #8d8569;
+  border-bottom: 1px solid #8d8569;
 }
 
 @media only screen and (max-width: 1080px) {

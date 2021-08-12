@@ -1,13 +1,15 @@
 #contact-container {
   height: 100vh;
   text-align: center;
-  background: rgb(94, 94, 96);
-  background: linear-gradient(180deg, rgb(68, 68, 70) 0%, rgb(83, 83, 83) 100%);
+  /* background: rgb(94, 94, 96); */
+  /* background: linear-gradient(180deg, rgb(68, 68, 70) 0%, rgb(83, 83, 83) 100%); */
+  background-color: #eef2f3;
   position: relative;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  color: #354b60;
 }
 
 #contact-container form {
@@ -28,6 +30,13 @@ textarea {
   padding: 10px;
   font-size: 18;
   border: none;
+  color: #eef2f3;
+  background-color: #354b60;
+}
+
+#contact-container form input::placeholder,
+textarea::placeholder {
+  color: #eef2f3;
 }
 
 #contact-container button {
@@ -41,7 +50,7 @@ textarea {
 #contact-container p {
   margin: 40px 0 60px 0;
   font-size: 18px;
-  color: #0093e9;
+  /* color: #0093e9; */
 }
 
 @media only screen and (max-width: 1080px) {

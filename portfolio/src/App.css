@@ -6,13 +6,13 @@
 }
 
 .App {
-  color: #e8e9e9;
+  color: #eef2f3;
 }
 
 button {
-  background: white;
-  color: #0093e9;
-  border: 2px solid #0093e9 !important;
+  background: #eef2f3;
+  color: #8d8569;
+  border: 2px solid #8d8569 !important;
   transition: 1s !important;
   border-radius: 10px;
   outline: none;
@@ -22,13 +22,13 @@ button {
 
 button:hover,
 button:focus {
-  box-shadow: inset 600px 0 0 1px #0093e9;
-  color: white;
-  border: 2px solid white;
+  box-shadow: inset 600px 0 0 1px #8d8569;
+  color: #eef2f3;
+  border: 2px solid #eef2f3;
 }
 
 h2 {
   width: fit-content;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid inset; */
   font-size: 48px;
 }

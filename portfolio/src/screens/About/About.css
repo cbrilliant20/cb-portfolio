@@ -1,18 +1,20 @@
 #about-container {
   height: 100vh;
   text-align: center;
-  background: rgb(39, 39, 40);
+  /* background: rgb(39, 39, 40);
   background: linear-gradient(
     180deg,
     rgba(39, 39, 40, 1) 0%,
     rgb(52, 52, 54) 100%
-  );
+  ); */
+  background-color: #eef2f3;
   position: relative;
   display: flex;
   flex-flow: column;
   text-align: center;
   justify-content: center;
   align-items: center;
+  color: #354b60;
 }
 
 .skills-container {
@@ -34,8 +36,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap;
-  flex-basis: 50%; */
 }
 
 .skill p {
@@ -66,28 +66,31 @@
 .brand {
   width: 30%;
   height: 100%;
-  color: #0093e9;
-  background-color: white;
+  color: #eef2f3;
+  background-color: #8d8569;
   border-radius: 10px;
-  border: 1px solid #0093e9;
+  border: 1px solid #8d8569;
 }
 
 .tool {
   width: 30%;
   height: 100%;
-  color: #0093e9;
-  background-color: white;
+  color: #eef2f3;
+  background-color: #8d8569;
 
   display: flex;
   flex-direction: column;
   position: relative;
   border-radius: 10px;
-  border: 1px solid #0093e9;
+  border: 1px solid #8d8569;
 }
 
 .tool button {
   border: none !important;
-  border-top: 1px solid #0093e9 !important;
+  border-top: 1px solid #eef2f3 !important;
+  background-color: #8d8569;
+  color: #eef2f3;
+  font-size: 20px;
   outline: none;
   width: 100%;
   height: 40px;

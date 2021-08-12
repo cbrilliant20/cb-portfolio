@@ -1,13 +1,13 @@
 #home-container {
   height: 100vh;
   text-align: center;
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(39, 39, 40, 1) 100%
-  );
-
+  ); */
+  background-color: #354b60;
   position: relative;
   display: flex;
   flex-flow: column wrap;
@@ -35,7 +35,7 @@ h2.home-h2 {
 }
 
 #home-container span {
-  color: #0093e9;
+  color: #8d8569;
 }
 
 #home-container button {

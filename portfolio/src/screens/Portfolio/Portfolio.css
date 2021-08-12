@@ -1,12 +1,13 @@
 #portfolio-container {
   height: 100%;
   text-align: center;
-  background: rgb(66, 66, 68);
+  /* background: rgb(66, 66, 68);
   background: linear-gradient(
     180deg,
     rgba(52, 52, 54) 0%,
     rgb(68, 68, 70) 100%
-  );
+  ); */
+  background-color: #354b60;
   position: relative;
   display: flex;
   flex-flow: column wrap;

@@ -4,13 +4,13 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #1f1f1e;
 }
 
 .footer-icon {
   font-size: 48px;
   margin: 10px 20px;
-  color: #359bfa;
+  color: #6ecad0;
   cursor: pointer;
 }
 
