@@ -1,12 +1,6 @@
 #about-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;
-  /* background: rgb(39, 39, 40);
-  background: linear-gradient(
-    180deg,
-    rgba(39, 39, 40, 1) 0%,
-    rgb(52, 52, 54) 100%
-  ); */
   background-color: #eef2f3;
   position: relative;
   display: flex;
@@ -15,6 +9,7 @@
   justify-content: center;
   align-items: center;
   color: #354b60;
+  padding: 75px 0;
 }
 
 .skills-container {
@@ -55,47 +50,37 @@
 }
 
 .text-container h4 {
-  border-bottom: 1px solid white;
-  width: fit-content;
+  font-size: 24px;
 }
 
 .text-container p {
-  font-style: italic;
-}
-
-.brand {
-  width: 30%;
-  height: 100%;
-  color: #eef2f3;
-  background-color: #8d8569;
-  border-radius: 10px;
-  border: 1px solid #8d8569;
+  font-size: 18px;
 }
 
 .tool {
-  width: 30%;
+  width: 50%;
   height: 100%;
   color: #eef2f3;
-  background-color: #8d8569;
-
+  background-color: #676963;
   display: flex;
   flex-direction: column;
   position: relative;
   border-radius: 10px;
-  border: 1px solid #8d8569;
+  font-size: 18px;
 }
 
 .tool button {
   border: none !important;
   border-top: 1px solid #eef2f3 !important;
-  background-color: #8d8569;
+  background-color: #676963;
   color: #eef2f3;
   font-size: 20px;
   outline: none;
   width: 100%;
   height: 40px;
+  /* display: block; */
   position: absolute;
-  bottom: 0;
+  bottom: -1;
   right: 0;
   margin: 0;
   border-top-left-radius: 0;
@@ -108,17 +93,22 @@
   font-size: 22px;
 }
 
-.brand,
 .tool {
   transition: 0.5s;
   box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
   padding: 15px;
 }
 
-/* .brand:hover,
-.tool:hover {
-  transform: scale(110%);
-} */
+.headshot {
+  width: 35%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  margin-left: 20px;
+}
 
 @media only screen and (max-width: 1080px) {
   #about-container {
