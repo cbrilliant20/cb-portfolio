@@ -1,7 +1,7 @@
 import "./Contact.css"
 import emailjs from "emailjs-com"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons"
+import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -43,7 +43,7 @@ const Contact = () => {
         <button>Submit</button>
       </form>
       <a href="#home-container">
-        <FontAwesomeIcon icon={faChevronUp} className="up" />
+        <FontAwesomeIcon icon={faAngleDoubleUp} className="up" />
       </a>
     </div>
   )

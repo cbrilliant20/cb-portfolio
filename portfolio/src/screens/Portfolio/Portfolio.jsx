@@ -1,6 +1,6 @@
 import "./Portfolio.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons"
 
 const Portfolio = () => {
   return (
@@ -90,7 +90,7 @@ const Portfolio = () => {
         </a>
       </div>
       <a href="#contact-container">
-        <FontAwesomeIcon icon={faChevronDown} className="portfolio-down" />
+        <FontAwesomeIcon icon={faAngleDoubleDown} className="portfolio-down" />
       </a>
     </div>
   )

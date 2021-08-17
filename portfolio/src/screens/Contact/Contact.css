@@ -1,5 +1,5 @@
 #contact-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;
   /* background: rgb(94, 94, 96); */
   /* background: linear-gradient(180deg, rgb(68, 68, 70) 0%, rgb(83, 83, 83) 100%); */
@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   color: #354b60;
+  padding: 75px 0 25px 0;
 }
 
 #contact-container form {
@@ -49,7 +50,7 @@ textarea::placeholder {
 }
 
 #contact-container p {
-  margin: 30px 0 30px 0;
+  margin-bottom: 30px;
   font-size: 18px;
 }
 

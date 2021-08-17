@@ -1,7 +1,7 @@
 import "./About.css"
 import headshot from "../../Assets/headshot.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons"
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <div className="text-container">
         <div className="img-container">
           <img
-            src={ headshot }
+            src={headshot}
             // src="https://i.guim.co.uk/img/media/0db83b3d123185a5fe279bd88217bc76ba9b93e8/0_458_4500_4808/master/4500.jpg?width=700&quality=85&auto=format&fit=max&s=ac357381e95ce7a0e6c37775a752b1be"
             alt=""
             className="headshot"
@@ -38,8 +38,8 @@ const About = () => {
           </p>
           <br />
           <p>
-            In my free time you can find me traveling, spending time outdoors,
-            playing sports, and walking my Weimaraner, Billy
+            In my free time you can find me traveling, watching Boston sports,
+            and spending time outdoors with my Weimaraner, Billy
           </p>
           <br />
           <a
@@ -53,7 +53,7 @@ const About = () => {
       </div>
 
       <a href="#portfolio-container">
-        <FontAwesomeIcon icon={faChevronDown} className="about-down" />
+        <FontAwesomeIcon icon={faAngleDoubleDown} className="about-down" />
       </a>
     </div>
   )
