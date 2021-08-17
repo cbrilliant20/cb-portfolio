@@ -1,5 +1,5 @@
 .burger-nav {
-  background-color: #2d3c49;
+  background-color: #1f1f1e;
   position: fixed;
   right: 0;
   top: 0;
@@ -24,17 +24,18 @@
 
 .burger-nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #eef2f3;
   border-bottom: 1px transparent;
   transition: 0.5s;
 }
 
 .burger-nav ul li a:hover {
-  color: #0093e9;
-  border-bottom: 1px solid #0093e9;
+  color: #8d8569;
+  border-bottom: 1px solid #8d8569;
 }
 
 .close-icon {
   margin: 20px;
   font-size: 36px;
+  color: #8d8569;
 }

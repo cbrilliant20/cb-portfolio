@@ -71,3 +71,9 @@
 .card:hover {
   transform: scale(105%);
 }
+
+.portfolio-down {
+  color: #eef2f3;
+  margin-top: 50px;
+  font-size: 35px;
+}

@@ -1,18 +1,21 @@
 import "./About.css"
-import thinking from "../../Assets/thinking.png"
-import solve from "../../Assets/solve.png"
-import communicate from "../../Assets/communicate.png"
-import coach from "../../Assets/coach.png"
 import headshot from "../../Assets/headshot.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 
 const About = () => {
   return (
     <div id="about-container">
       <h2 id="about">About</h2>
-
       <div className="text-container">
-        <img src={headshot} alt="" className="headshot" />
-
+        <div className="img-container">
+          <img
+            src={ headshot }
+            // src="https://i.guim.co.uk/img/media/0db83b3d123185a5fe279bd88217bc76ba9b93e8/0_458_4500_4808/master/4500.jpg?width=700&quality=85&auto=format&fit=max&s=ac357381e95ce7a0e6c37775a752b1be"
+            alt=""
+            className="headshot"
+          />
+        </div>
         <div className="tool">
           <h4>I am a full stack developer based in Boston, Massachusetts.</h4>
           <br />
@@ -48,6 +51,10 @@ const About = () => {
           </a>
         </div>
       </div>
+
+      <a href="#portfolio-container">
+        <FontAwesomeIcon icon={faChevronDown} className="about-down" />
+      </a>
     </div>
   )
 }
